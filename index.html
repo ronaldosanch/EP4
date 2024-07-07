@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EP04</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            padding: 0 ;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    body{
+        background-color: black;
+        padding: 0;
+    }
+    .container{
+        width: 100%;
+    }
+    .carouselExampleIndicators{
+        width: 100%;
+    }
+
+    h1{
+
+        color: white;
+        font-family: "Michroma", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+  
+    }
+    P{
+        padding-left:6px ;
+        padding-right: 6px;
+        color: white;
+        text-align: justify;
+        font-size: 13px;
+        font-family: "Michroma", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+
+    }
+    @media (max-width:400px){
+        .main{ background-color: blue; width: 100%;;}
+    }
+
+
+    @media (max-width:400px){
+        .imgf{ height: 5000px;}
+    }
+    </style>
+</head>
+
+<body>
+    <br><br>
+    <div class="main" style="background-color: ;">
+
+    
+    <div class="container-sm" style="background-color: aqu; width: 100%;margin-top: px;">
+        <div class="row" style="background-color: ed;  ;">
+            <div class="col" style="background-color: black;height: ; width: 100%;">
+                <!-- ///////carousel///////-->
+                <div id="carouselExampleIndicators" class="carousel slide" style="height:300px; width: 100%; margin: auto; background-color: aqu; ">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" style="background-color: ; height: 300px; width: 100%; ;">
+                        <img src="img/porsche4to.png" style="  object-fit: cover; width: 100%; height: 100%; margin: auto; border-radius:5px; border: 1px solid rgb(255, 255, 255)" class="d-block   " alt="p1">
+                      </div>
+                      <div class="carousel-item" style="background-color:; height: 300px; width: 100%; ;">
+                        <img src="img/porsche2do.png" style="object-fit: cover; width: 100%; height: 100%; margin: auto; border-radius: 5px;border: 1px solid rgb(255, 255, 255)" class="d-block" alt="p2">
+                      </div>
+                      <div class="carousel-item" style="background-color: ; height: 300px; width: 100%; ;">
+                        <img src="img/porsche4to.png" style="object-fit: cover; width: 100%; height: 100%; margin: auto; border-radius: 5px;border: 1px solid rgb(255, 255, 255)" class="d-block" alt="p3">
+                      </div>
+                      <div class="carousel-item" style="background-color: ; height: 300px; width: 100%; ;">
+                        <img src="img/porsche3ro.png" style="object-fit: cover; width: 100%; height: 100%; margin: auto; border-radius: 5px;border: 1px solid rgb(255, 255, 255)" class="d-block" alt="p3">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+
+
+                  <br>
+                  <!-- ////////////navbar/////////////// -->
+
+                  <div class="row">
+                    <div style="background-color: ed; height: ; width: 90%;" class="col">
+                        <!-- /////////////////////////////////////////////////////// -->
+                        <nav class="navbar navbar-expand-lg bg-body-dark " style="border: 1px solid whitesmoke; border-radius: 5px; color: white">
+                            <div class="container-fluid" style="background-color:  ; color: white;">
+                              <a class="navbar-brand" href="#" style="color: white;">Navbar</a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" style="color: white; background-color: ;" id="navbarNav">
+                                <ul class="navbar-nav" style="background-color: ;">
+                                  <li class="nav-item" style="background-color: ;">
+                                    <a class="nav-link active" aria-current="page" style="color: whitesmoke;" href="#">Home</a>
+                                  </li>
+                                  <li class="nav-item" style="background-color: ; color: white;">
+                                    <a class="nav-link" href="#" style="color: white;">Features</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: white;">Pricing</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link disabled" aria-disabled="true" style="color:white;">Disabled</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                  </div>
+                  <!-- ////////////navbar/////////////// -->
+
+
+                
+               
+                  <br>
+
+            </div>
+
+            <div class="container-sm" style="background-color: lue; border: 1px solid white; border-radius: 5px; width: 98.1%; margin: auto;">
+                <div class="row" style="background-color: aqu;margin: auto;">
+                    <div class="col" style="background-color: re; height: 300px;">
+                        <h1 style="margin-top: 30px; font-size: 60px;">PORSCHE</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus odit voluptates doloremque laboriosam repellat nisi modi earum perferendis omnis cum odio debitis soluta rem dignissimos blanditiis magnam quos pariatur, aut voluptatibus itaque corporis rerum a enim dolorum. Exercitationem voluptatum deserunt quo! Itaque tenetur cum reprehenderit accusamus maiores eveniet quis optio.</p>
+                        <button type="button" style="margin-left: 6px;" class="btn btn-outline-light">More info</button>
+                    </div>
+                    
+                
+                    
+                </div>
+                <div class="row" style="background-color: antiquewhit; height: ;">
+                    
+                    <div class="col " style="background-color: ed; height: ; ">
+                        <div class="card" style="width: 18rem; margin: auto; background-color: black; border: 1px solid white; border-radius: 5px;" >
+                            <img src="img/porsche1.jpg" class="card-img-top" alt="img1">
+                            <div class="card-body">
+                              <p class="card-title" style="color: white; font-size: 20px;">Card title</p>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-dark" style=";">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col " style="background-color: ed; height: ; ">
+                        <div class="card" style="width: 18rem; margin: auto; background-color: black; border: 1px solid white; border-radius: 5px;" >
+                            <img src="img/porsche2.jpg" class="card-img-top" alt="img1">
+                            <div class="card-body">
+                              <p class="card-title" style="color: white; font-size: 20px;">Card title</p>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-dark" style=";">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col " style="background-color: ed; height: ; ">
+                        <div class="card" style="width: 18rem; margin: auto; background-color: black; border: 1px solid white; border-radius: 5px;" >
+                            <img src="img/porsche3.jpg" class="card-img-top" alt="img1">
+                            <div class="card-body">
+                              <p class="card-title" style="color: white; font-size: 20px;">Card title</p>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-dark" style=";">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+
+                    
+                    
+
+                </div>
+                <br><br>
+            </div>
+            
+
+
+
+
+
+
+
+        </div>
+
+
+         <br>
+         <div class="container d-flex">
+        <div class="row d-flex" style="background-color:ed ; height: ; margin: auto; border: 1px solid white; width: 100%; border-radius: 5px; padd">
+            <div class="col" style="background-color: ; height:; margin-top: 20px; margin: 30px; ">
+                <img  class="imgf"   src="img/captura2.png" style="height: 300px; border-radius: 5px; width:100% ;object-fit: cover" alt= "">
+            </div>
+            <div class="col " style="background-color: ; height: ; margin-top: 20px; margin: 30px;">
+                <h1 style="color: white;">Porsche</h1>
+                <p style="font-size: 17px; margin: auto; margin-top: 20px; text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita ex cupiditate dicta explicabo magnam esse qui fugiat ipsum tenetur iusto, pariatur aperiam repudiandae illo possimus quidem iste temporibus. Consectetur doloremque dolorem hic, incidunt, quo corrupti fugiat alias quae cupiditate maiores nemo repellat voluptatem quam maxime accusantium nostrum sapiente inventore! Atque.</p>
+            </div>
+        </div>
+        </div>
+        <br>
+
+        <div class="row" style="border: 1px solid white;  border-radius: 5px; width: %; margin: auto;">
+            <div class="col" style="height: 300px; " >
+                <img src="img/captura3.png" style="width: 100%; object-fit: cover ; height: 100%;" alt="">
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
